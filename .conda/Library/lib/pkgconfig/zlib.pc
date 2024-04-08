@@ -1,0 +1,13 @@
+prefix=c:/Users/salva/OneDrive/Documents/DSBA 5122/CMPD_Stops/.conda/Library
+exec_prefix=c:/Users/salva/OneDrive/Documents/DSBA 5122/CMPD_Stops/.conda/Library
+libdir=c:/Users/salva/OneDrive/Documents/DSBA 5122/CMPD_Stops/.conda/Library/lib
+sharedlibdir=c:/Users/salva/OneDrive/Documents/DSBA 5122/CMPD_Stops/.conda/Library/lib
+includedir=c:/Users/salva/OneDrive/Documents/DSBA 5122/CMPD_Stops/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
