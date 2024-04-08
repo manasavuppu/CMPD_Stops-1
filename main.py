@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 
 st.write('CMPD Traffic Stops')
-st.write('MANASA WAS HERE')
+st.write('MANASA WAS HERE,hey hey hey!')
+
 
 @st.cache_data
 def load_data(csv):
